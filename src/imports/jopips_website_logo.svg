@@ -1,0 +1,44 @@
+<svg width="680" height="130" viewBox="0 0 680 130" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:wght@500;700;900&amp;display=swap');
+  </style>
+
+  <!-- Dark background -->
+  <rect x="0" y="0" width="680" height="130" rx="16" fill="#0B1120"/>
+
+  <!-- Gold accent bar -->
+  <rect x="0" y="0" width="5" height="130" rx="2" fill="#C9A227"/>
+
+  <!-- Icon badge -->
+  <rect x="22" y="22" width="86" height="86" rx="14" fill="#C9A227" opacity="0.12"/>
+  <rect x="22" y="22" width="86" height="86" rx="14" fill="none" stroke="#C9A227" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- J in badge -->
+  <text font-family="'Bebas Neue', Impact, sans-serif" font-size="72" x="48" y="95" fill="white">J</text>
+
+  <!-- Three pips -->
+  <circle cx="88" cy="43" r="7" fill="#C9A227"/>
+  <circle cx="88" cy="65" r="7" fill="#C9A227"/>
+  <circle cx="88" cy="87" r="7" fill="#C9A227"/>
+
+  <!-- Divider -->
+  <line x1="128" y1="28" x2="128" y2="102" stroke="#C9A227" stroke-width="1" opacity="0.25"/>
+
+  <!-- Wordmark with tighter letter spacing -->
+  <text font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="52" x="148" y="84" fill="white" letter-spacing="-1">JOPIPS</text>
+
+  <!-- Vertical separator -->
+  <rect x="400" y="32" width="2" height="66" rx="1" fill="#C9A227" opacity="0.4"/>
+
+  <!-- Tagline -->
+  <text font-family="'Montserrat', sans-serif" font-weight="500" font-size="11" x="416" y="55" fill="#C9A227" letter-spacing="4">DISCIPLINED</text>
+  <text font-family="'Montserrat', sans-serif" font-weight="500" font-size="11" x="416" y="73" fill="#C9A227" letter-spacing="4">TRADERS</text>
+
+  <!-- Chart line -->
+  <polyline points="560,95 588,60 616,75 644,38 672,50" fill="none" stroke="#C9A227" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.35"/>
+  <circle cx="560" cy="95" r="3" fill="#C9A227" opacity="0.5"/>
+  <circle cx="588" cy="60" r="3" fill="#C9A227" opacity="0.5"/>
+  <circle cx="616" cy="75" r="3" fill="#C9A227" opacity="0.5"/>
+  <circle cx="644" cy="38" r="3" fill="#C9A227" opacity="0.5"/>
+  <circle cx="672" cy="50" r="3" fill="#C9A227" opacity="0.5"/>
+</svg>

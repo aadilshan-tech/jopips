@@ -1,0 +1,46 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&amp;family=Montserrat:wght@700;900&amp;display=swap');
+  </style>
+
+  <!-- Outer glow ring -->
+  <circle cx="256" cy="256" r="252" fill="#C9A227" opacity="0.15"/>
+
+  <!-- Main circle background -->
+  <circle cx="256" cy="256" r="244" fill="#0B1120"/>
+
+  <!-- Inner ring -->
+  <circle cx="256" cy="256" r="236" fill="none" stroke="#C9A227" stroke-width="2" opacity="0.5"/>
+  <circle cx="256" cy="256" r="230" fill="none" stroke="#C9A227" stroke-width="0.5" opacity="0.25"/>
+
+  <!-- Candlestick bg decoration -->
+  <line x1="100" y1="180" x2="100" y2="310" stroke="#C9A227" stroke-width="1" opacity="0.1"/>
+  <line x1="140" y1="160" x2="140" y2="300" stroke="#C9A227" stroke-width="1" opacity="0.1"/>
+  <line x1="180" y1="195" x2="180" y2="330" stroke="#C9A227" stroke-width="1" opacity="0.1"/>
+  <line x1="332" y1="170" x2="332" y2="310" stroke="#C9A227" stroke-width="1" opacity="0.1"/>
+  <line x1="372" y1="155" x2="372" y2="295" stroke="#C9A227" stroke-width="1" opacity="0.1"/>
+  <line x1="412" y1="190" x2="412" y2="330" stroke="#C9A227" stroke-width="1" opacity="0.1"/>
+  <rect x="93" y="210" width="14" height="60" rx="2" fill="#C9A227" opacity="0.09"/>
+  <rect x="133" y="190" width="14" height="80" rx="2" fill="#C9A227" opacity="0.09"/>
+  <rect x="173" y="230" width="14" height="55" rx="2" fill="#C9A227" opacity="0.09"/>
+  <rect x="325" y="200" width="14" height="70" rx="2" fill="#C9A227" opacity="0.09"/>
+  <rect x="365" y="185" width="14" height="78" rx="2" fill="#C9A227" opacity="0.09"/>
+  <rect x="405" y="220" width="14" height="60" rx="2" fill="#C9A227" opacity="0.09"/>
+
+  <!-- Large J -->
+  <text font-family="'Bebas Neue', Impact, sans-serif" font-size="200" x="172" y="348" fill="white">J</text>
+
+  <!-- Three gold pips -->
+  <circle cx="318" cy="192" r="15" fill="#C9A227"/>
+  <circle cx="318" cy="242" r="15" fill="#C9A227"/>
+  <circle cx="318" cy="292" r="15" fill="#C9A227"/>
+
+  <!-- JOPIPS with tighter letter spacing -->
+  <text font-family="'Montserrat', 'Arial Black', sans-serif" font-weight="900" font-size="40" x="256" y="400" text-anchor="middle" fill="white" letter-spacing="3">JOPIPS</text>
+
+  <!-- Gold line -->
+  <rect x="158" y="415" width="196" height="2" rx="1" fill="#C9A227" opacity="0.9"/>
+
+  <!-- Tagline -->
+  <text font-family="'Montserrat', sans-serif" font-weight="700" font-size="13" x="256" y="440" text-anchor="middle" fill="#C9A227" letter-spacing="5">DISCIPLINED TRADERS</text>
+</svg>
